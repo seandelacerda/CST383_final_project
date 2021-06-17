@@ -55,7 +55,30 @@ Upon analizing the shapes in the dataset, we discovered two values that could be
 
 Since we originally intended to use location data for our predictors, we decided to drop any rows where location data contained NA values.
 
+After the feature engineering above was complete, we still had 3351 NA values in the duration feature. While this data would require a lot of processing to convert the datapoints to a standardized numeric format, we decided to leave this feature in place initially. At this point we realized the dataset did not contain a significant number of viable predictors. Due to this, we added several contextual features pertaining to UFO sightings and populated these features with random 0s and 1s. The features we added were:
+
+- rural_area
+- city_area
+- observer_alone
+- driving
+- ufo_believer
+- alcohol_consumed
+- multiple_ufo_sighted
+- near_ocean
+
 ## Methods
+
+While working on this project, we used the standard suite of tools we had used throughout the course. 
+
+#### Tools
+- sklearn (linear_model, model_selection, metrics)
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- SciPy
+
+The majority of the feature engineering we had to do for this project was accomplished using Pandas and NumPy.
 
 ## Results
 

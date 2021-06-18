@@ -99,4 +99,10 @@ Our models predictions for the number of UFO sightings were consistently lower t
 
 ## Discussion
 
+There are several conclusions that may be drawn from the results above. First, introducing additional data did actually help. While our models predictions were by no means accurate, they were noticeably better once we integrated the church data. Due to the dicrete nature of our target, the linear regression model is not suited to the problem. There were no fundamental issues with the data itself (though several columns had less predictive value). The tools we used to work on this project, namely Pandas, NumPy, and Seaborn were excellent and allowed us to quickly prepare and execute our predictions.
+
+Regardless of what tools or data we decided to use for this project, the results likely would have been the same. The problem arose from using a linear regression model with a discrete target. A polynomial or exponential model would give us miuch better predictions, and this is the approach we will take for any future projects with similar data.
+
 ## Summary
+
+The data required quite a bit of feature engineering before we moved on to our predictions. We initially attempted to predict UFO shape based on location, but found this was not viable with our linear regression model. We then introduced several new features in an attempt to improve the accuracy of our predictions. This was also unsuccessful, as our RMSE hovered around the baseline. In a final attempt to derive any meaningful predictions, we integrated another dataset containing church locations across the United States, and attempted to predict the number of UFO sightings in a given area based on the number of nearby churches. While the results were better (R-Squared: 0.57), we were unable to make any truly accurate predictions. While this is in line with our hypothesis, we cannot come to a full conclusion since the error is mostly due to our model selection.

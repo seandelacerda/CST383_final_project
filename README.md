@@ -82,6 +82,8 @@ While working on this project, we used the standard suite of tools we had used t
 
 The majority of the feature engineering we had to do for this project was accomplished using Pandas and NumPy.
 
+While we recognized linear regression likely wasn't the best model to use for this problem due to the discrete target variables, we decided to explore its viability due to the simplicity of the approach. If successful this strategy would prove much more efficient than any alternatives.
+
 ## Results
 
 

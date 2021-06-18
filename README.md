@@ -3,7 +3,9 @@
 
 We wanted to select a fun, compelling topic that would also allow us to apply the knowledge we acquired throughout the course. With the recent acknowledgements made by the United States government pertaining to UFOs and their existence, we thought a subject related to UFOs would be both interesting and relevant.
 
-The initial objective was to predict the likelihood of seeing a UFO given a particular location and time. However, the time-series nature of the dataset was well outside the scope of the course. We then adjusted our objectives to make them more achieveable. Our revised objective was to predict the shape of a UFO based on the sighting location. In particular, we initially wanted to separate the location data by U.S. state.
+The initial objective was to predict the likelihood of seeing a UFO given a particular location and time. However, the time-series nature of the dataset was well outside the scope of the course. We then adjusted our objectives to make them more achieveable. Our revised objective was to predict the shape of a UFO based on the sighting location. In particular, we initially wanted to separate the location data by U.S. state. Upon becoming more familiar with the curriculum as the course progressed, we had to make a final revision to our research question. 
+
+Ultimately, our research question is to determine **whether we are able to predict the shape of a UFO given certain contextual features associated with the encounter**. Our hypothesis is that making such a prediction may prove difficult but we will attempt to do so nevertheless.
 
 ## Selection of Data
 
@@ -81,6 +83,8 @@ While working on this project, we used the standard suite of tools we had used t
 The majority of the feature engineering we had to do for this project was accomplished using Pandas and NumPy.
 
 ## Results
+
+
 
 ## Discussion
 

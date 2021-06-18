@@ -86,7 +86,16 @@ While we recognized linear regression likely wasn't the best model to use for th
 
 ## Results
 
+Due to the discrete nature of our target variable being a class of shape, even though we assigned numeric values to each shape, our conclusion is that a linear regression model is not the correct one to use for this problem. Evaluating RMSE and R-squared show no relationship with the single predictor since the R-square value is essentially 0 and RMSE is the same as the baseline (~4.3).
 
+Since we don't really have enough numerical features to make any meaninful predictions, we're going to bring in some more data from a dataset containing all of the churches in the US. We will combine that data with what we have in order to predict the number of UFO sightings based on the number of churches in a city.
+
+Introducing the church data required more feature engineering. The data we used is from the following url: https://query.data.world/s/w2iiqg4xblabbhqg3sq76lk3x2h6rq . Upon merging the church and ufo data and performing the necessary feature engineering, we were able to to achieve a better R-Squared value but our RMSE was still far from ideal:
+
+R-Squared: 0.57
+RMSE: 16.824712187743078
+
+Our models predictions for the number of UFO sightings were consistently lower than the actual data, even more so when the actual number of sightings was higher.
 
 ## Discussion
 

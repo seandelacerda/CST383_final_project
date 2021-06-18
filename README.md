@@ -105,4 +105,10 @@ Regardless of what tools or data we decided to use for this project, the results
 
 ## Summary
 
-The data required quite a bit of feature engineering before we moved on to our predictions. We initially attempted to predict UFO shape based on location, but found this was not viable with our linear regression model. We then introduced several new features in an attempt to improve the accuracy of our predictions. This was also unsuccessful, as our RMSE hovered around the baseline. In a final attempt to derive any meaningful predictions, we integrated another dataset containing church locations across the United States, and attempted to predict the number of UFO sightings in a given area based on the number of nearby churches. While the results were better (R-Squared: 0.57), we were unable to make any truly accurate predictions. While this is in line with our hypothesis, we cannot come to a full conclusion since the error is mostly due to our model selection.
+The data required quite a bit of feature engineering before we moved on to our predictions. We initially attempted to predict UFO shape based on location, but found this was not viable with our linear regression model. We then introduced several new features in an attempt to improve the accuracy of our predictions. This was also unsuccessful, as our RMSE hovered around the baseline. In a final attempt to derive any meaningful predictions, we integrated another dataset containing church locations across the United States, and attempted to predict the number of UFO sightings in a given area based on the number of nearby churches. While the results were better (R-Squared: 0.57), we were unable to make any truly accurate predictions. From our linear regression we can conclude that there is a moderate correlation between number of churches and number of UFO sightings. Therefore, we can make some predictions about the number of UFO sightings in a given area based on how many churches are present, but we need more data in order to make such predictions with more accuracy.
+
+### References
+
+#### Datasets
+UFO sightings within the United States and Canada: https://query.data.world/s/4vicgqesotkow23wc4q2g22vbrh5kz
+Churches in the United States: https://query.data.world/s/w2iiqg4xblabbhqg3sq76lk3x2h6rq
